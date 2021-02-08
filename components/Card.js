@@ -21,7 +21,7 @@ export default class Card extends React.Component {
     onPressLinkText: PropTypes.func,
   };
 
-  static defualtProps = {
+  static defaultProps = {
     linkText: '',
     onPressLinkText: () => {},
   };
